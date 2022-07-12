@@ -230,3 +230,4 @@ robot_pos_sub = rospy.Subscriber('/m1n6s300_driver/out/tool_pose', PoseStamped, 
 
 while not rospy.is_shutdown():
     rospy.spin()
+
